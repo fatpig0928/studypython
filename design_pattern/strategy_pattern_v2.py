@@ -5,14 +5,14 @@ class Pos():
     def __init__(self):
         pass
 
-    def paybycard(self,price,credit):
-        credit.chargebacks(price)   
+    def paybycard(self,price):
+        pass   
 
 #第一个具体策略
 class CnyPos(Pos):
     
     def paybycard(self,price):
-        return  
+        return price 
 
 #第二个具体策略
 class UsdPos(Pos):
