@@ -1,0 +1,3 @@
+文件:105_peopleerro_draw.py是使用matplotlib来画3d曲线,画出的结果在img文件夹中,命名为105_peopleerro_drwa.jpg
+
+文件:plotsigmoid.py 使用matplotlib来画sigmoid曲线,是一个简单的曲线
